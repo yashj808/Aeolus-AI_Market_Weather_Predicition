@@ -37,6 +37,9 @@ env/
 .vscode/
 *.swp
 *.swo
+.project
+.pydevproject
+.settings/
 
 # Databases and database temporary files
 *.db
@@ -46,6 +49,16 @@ env/
 
 # Configuration and secrets
 .env
+.env.local
+.env.*.local
+
+# Logs and databases
+*.log
+logs/
+
+# OS metadata
+.DS_Store
+Thumbs.db
 
 # Pytest / coverage
 .pytest_cache/
